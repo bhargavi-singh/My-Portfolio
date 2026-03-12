@@ -21,8 +21,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  tesla,
+  sarvagram,
+  criodo,
   carrent,
   jobit,
   tripguide,
@@ -108,21 +108,9 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Project Engineer",
-    companyName: "Crio.Do",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - July 2024",
-    points: [
-      "Developed a customizable resume builder using Next.js, TypeScript, and Redux based on an open-source project, reducing manual effort for the customer success team by 30%.",
-      "Engineered a certification system using HTML, CSS, and Directus, enabling automated certificate generation and driving a 17% increase in social media engagement.",
-      "Designed and implemented a modern profile module leveraging React Hook Form, RTK Query, and ShadCN UI, cutting user onboarding time from 20 minutes to 10 minutes.",
-    ],
-  },
-  {
     title: "Frontend Engineer",
     companyName: "Sarvagram Fincare Pvt. Ltd.",
-    icon: meta,
+    icon: sarvagram,
     iconBg: "#383E56",
     date: "Aug 2024 - Present",
     points: [
@@ -130,6 +118,18 @@ const experiences: TExperience[] = [
       "Spearheaded frontend integration of Credit Bureau APIs in a React lending platform, building optimized components to visualize structured credit data.",
       "Implemented a URN-based identity deduplication system to eliminate repeat lending fraud, standardizing identity mapping for 100K+ customers.",
       "Engineered a real-time Command Control Center using Leaflet.js to allow managers to track live employee locations and assign field tasks.",
+    ],
+  },
+  {
+    title: "Project Engineer",
+    companyName: "Crio.Do",
+    icon: criodo,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - July 2024",
+    points: [
+      "Developed a customizable resume builder using Next.js, TypeScript, and Redux based on an open-source project, reducing manual effort for the customer success team by 30%.",
+      "Engineered a certification system using HTML, CSS, and Directus, enabling automated certificate generation and driving a 17% increase in social media engagement.",
+      "Designed and implemented a modern profile module leveraging React Hook Form, RTK Query, and ShadCN UI, cutting user onboarding time from 20 minutes to 10 minutes.",
     ],
   },
 ];
@@ -170,7 +170,8 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/bhargavi-singh",
+    sourceCodeLink: "https://github.com/bhargavi-singh/QGenius",
+    liveLink: "https://qgenius.vercel.app/",
   },
   {
     name: "QTrip Dynamic",

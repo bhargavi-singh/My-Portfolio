@@ -10,6 +10,7 @@ type TConfig = {
     fullName: string;
     email: string;
     phone: string;
+    resume: string;
     socials: {
       github: string;
       linkedin: string;
@@ -33,7 +34,8 @@ export const config: TConfig = {
     title: "Bhargavi Singh",
     fullName: "Bhargavi Singh",
     email: "bhargavisingh700@gmail.com",
-    phone: "+91-6307150346", // Update with your phone number
+    phone: "+91-6307150346",
+    resume: "https://drive.google.com/file/d/1mjk3TiEiBB5jW3efdBQFsdON3D4e4ulE/view",
     socials: {
       github: "https://github.com/bhargavi-singh",
       linkedin: "https://www.linkedin.com/in/bhargavii-singh/",
@@ -45,12 +47,12 @@ export const config: TConfig = {
   },
   contact: {
     p: "Get in touch",
-    h2: "Contact.",
+    h2: "Contact",
   },
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
+      h2: "Overview",
       content: `I'm a skilled Software Engineer with 3 years of experience in TypeScript and
       JavaScript, and expertise in frameworks like React, Next.js, and
       Three.js. I have a proven track record of architecting scalable UI components, 
@@ -59,7 +61,7 @@ export const config: TConfig = {
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Work Experience",
     },
     feedbacks: {
       p: "What others say",
@@ -67,7 +69,7 @@ export const config: TConfig = {
     },
     works: {
       p: "My work",
-      h2: "Projects.",
+      h2: "Projects",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
     links to code repositories and live demos in it. It reflects my
